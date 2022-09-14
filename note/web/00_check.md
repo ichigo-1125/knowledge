@@ -1,17 +1,29 @@
 # チェックシート
 
-## 第1章 Webの基礎知識
+## Webの基礎知識
 
-- [ ] [Webの3つの用途](./01_basic_knowledge_of_web.md#webサイト)
-- [ ] [Web3大技術](./01_basic_knowledge_of_web.md#http)
+- [ ] [Webの3つの用途](./01_basic_knowledge_of_web.md#webの3つの用途)
+	- [ ] [Webサイト](./01_basic_knowledge_of_web.md#webサイト)
+	- [ ] [ユーザインタフェース](./01_basic_knowledge_of_web.md#ユーザインタフェース)
+	- [ ] [API](./01_basic_knowledge_of_web.md#api)
+- [ ] [Web3大技術](./01_basic_knowledge_of_web.md#web3大技術)
+	- [ ] [HTTP](./01_basic_knowledge_of_web.md#http)
+	- [ ] [URI](./01_basic_knowledge_of_web.md#uri)
+	- [ ] [HTML](./01_basic_knowledge_of_web.md#html)
 - [ ] [ハイパーメディア](./01_basic_knowledge_of_web.md#ハイパーメディア)
 	- [ ] [ハイパーリンク、リンク](./01_basic_knowledge_of_web.md#ハイパーメディア)
-		- [ ] [ページランク、トラックバック](./01_basic_knowledge_of_web.md#ハイパーメディア)
+		- [ ] [ページランク](./01_basic_knowledge_of_web.md#ハイパーメディア)
+		- [ ] [トラックバック](./01_basic_knowledge_of_web.md#ハイパーメディア)
 - [ ] [分散システム](./01_basic_knowledge_of_web.md#分散システム)
 	- [ ] [集中システム](./01_basic_knowledge_of_web.md#分散システム)
+- [ ] [クライアントとサーバ](./01_basic_knowledge_of_web.md#クライアントとサーバ)
+- [ ] [ブラウザ](./01_basic_knowledge_of_web.md#ブラウザ)
 
-## 第2章 Webの歴史
 
+## Webの歴史
+
+- [ ] [ARPANET](./02_history_of_web.md#インターネットの歴史)
+- [ ] [TCP/IP](./02_history_of_web.md#インターネットの歴史)
 - [ ] [Memex](./02_history_of_web.md#memex)
 - [ ] [Xanadu](./02_history_of_web.md#xanadu)
 - [ ] [HyperCard](./02_history_of_web.md#hypercard)
@@ -37,7 +49,6 @@
 	- [ ] [リソースの状態の表現](./02_history_of_web.md#restの誕生)
 - [ ] [microformats](./02_history_of_web.md#様々なハイパーメディアフォーマットの誕生)
 - [ ] [RSS](./02_history_of_web.md#様々なハイパーメディアフォーマットの誕生)
-	- [ ] [Atom](./02_history_of_web.md#様々なハイパーメディアフォーマットの誕生)
 - [ ] [JSON](./02_history_of_web.md#様々なハイパーメディアフォーマットの誕生)
 - [ ] [SOAP](./02_history_of_web.md#soap対rest)
 	- [ ] [WS-\*](./02_history_of_web.md#soap対rest)
@@ -46,7 +57,8 @@
 		- [ ] [WS-ReliableMessaging](./02_history_of_web.md#soap対rest)
 	- [ ] [OASIS](./02_history_of_web.md#soap対rest)
 
-## 第3章 REST
+
+## REST
 
 - [ ] [アーキテクチャスタイル](./03_rest.md#アーキテクチャスタイルとデザインパターン)
 	- [ ] [MVC、パイプ&フィルタ、イベントシステム](./03_rest.md#アーキテクチャスタイルとデザインパターン)
@@ -75,7 +87,8 @@
 - [ ] [アプリケーション状態エンジンとしてのハイパーメディア](./03_rest.md#restfulサービス)
 	- [ ] [接続性](./03_rest.md#restfulサービス)
 
-## 第4章 URI
+
+## URI
 
 - [ ] [URI](./04_uri.md#uriの役割)
 	- [ ] [統一リソース識別子](./04_uri.md#uriの役割)
@@ -100,7 +113,8 @@
 - [ ] [マトリクスURI](./04_uri.md#マトリクスuri)
 - [ ] [URIの不透明性](./04_uri.md#uriの不透明性)
 
-## 第5章 HTTP
+
+## HTTP
 
 - [ ] [HTTP](./05_http.md#httpの役割)
 - [ ] [HTTP0.9](./05_http.md#httpのバージョン)
@@ -161,7 +175,8 @@
 	- [ ] [Transfer-Encoding: chunked](./05_http.md#httpヘッダ)
 	- [ ] [WWW-Authenticate](./05_http.md#httpヘッダ)
 
-## 第6章 ハイパーメディアフォーマット
+
+## ハイパーメディアフォーマット
 
 - [ ] [HTML](./06_hypermedia_format.md#html)
 	- [ ] [マークアップ言語](./06_hypermedia_format.md#html)
