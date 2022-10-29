@@ -15,7 +15,7 @@ AWSはAmazonが提供するクラウドコンピューティングサービス�
 AWSの各種サービスの概要や運用のコツなどをまとめる。
 
 - [チェックリスト](./aws/00_check.md)
-- [AWSの基礎知識](./aws/01_basic_knowledge.md)
+- [AWSの基礎知識](./aws/01_basic_knowledge_of_aws.md)
 - [各種サービスの概要](./aws/02_overview_of_services.md)
 - [ネットワーキングとコンテンツ配信](./aws/03_networking_and_content_delivery.md)
 - [コンピューティング](./aws/04_computing.md)
