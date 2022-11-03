@@ -13,10 +13,10 @@
 	1. [VPCエンドポイント](#vpcエンドポイント)
 	1. [ピアリング接続](#ピアリング接続)
 	1. [VPCフローログ](#vpcフローログ)
-	1. [Direct Connect](#directo-connect)
+	1. [Direct Connect](#direct-connect)
 1. [CloudFront](#cloudfront)
 	1. [キャッシュルール](#キャッシュルール)
-1. [Route53](#route53)
+1. [Route 53](#route-53)
 	1. [ドメイン管理](#ドメイン管理)
 	1. [権威DNS](#権威dns)
 	1. [ホストゾーンとレコード情報](#ホストゾーンとレコード情報)
@@ -27,7 +27,7 @@
 
 ## VPC
 
-![AWS VPC](./img/aws_vpc.png)
+![AWS VPC](./img/aws_vpc.jpg)
 
 **VPC**（Amazon Virtual Private Cloud）はAWSのネットワークサービスの中心であり、利用者ごとのプライベートなネットワークをAWS内に作成する。VPCからインターネットへの出口を**インターネットゲートウェイ**（IGW）、VPCからオンプレミスの各拠点への出口を**仮想プライベートゲートウェイ**（VGW）という。
 
@@ -89,6 +89,8 @@ S3やDynamoDBと接続する際には、ルーティングを利用した**ゲ�
 
 
 ## CloudFront
+
+![AWS CloudFront](./img/aws_cloudfront_route53.jpg)
 
 **Amazon CloudFront**は、HTMLファイルやCSS、画像、動画といった静的コンテンツをキャッシュし、**バックエンドサーバ**（**オリジンサーバ**）の代わりに配信する**CDN**（Contents Delivery Network）サービスである。オリジンサーバとしては、EC2やELB、S3の静的ホスティング、オンプレミスサーバを利用することができる。
 

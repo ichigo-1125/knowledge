@@ -6,7 +6,7 @@
 1. [CloudWatch](#cloudwatch)
 	1. [CloudWatch Logs](#cloudwatch-logs)
 	1. [CloudWatch Events](#cloudwatch-events)
-1. [CloudTail](#cloudtail)
+1. [CloudTrail](#cloudtrail)
 	1. [イベントの種類](#イベントの種類)
 
 

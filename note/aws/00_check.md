@@ -87,7 +87,7 @@
 	- [ ] [レイテンシー](./03_networking_and_content_delivery.md#cloudfront)
 	- [ ] [キャッシュルール](./03_networking_and_content_delivery.md#キャッシュルール)
 
-- [ ] [Route53](./03_networking_and_content_delivery.md#route53)
+- [ ] [Route53](./03_networking_and_content_delivery.md#route-53)
 	- [ ] [ゾーン情報](./03_networking_and_content_delivery.md#ドメイン管理)
 	- [ ] [権威DNS](./03_networking_and_content_delivery.md#権威dns)
 	- [ ] [キャッシュDNS](./03_networking_and_content_delivery.md#権威dns)
@@ -182,8 +182,7 @@
 
 ## マネジメントとガバナンス
 
-- [ ] [Amazon CloudWatch](./05_management_and_governance.md#cloudwatch)
-	- [ ] [CloudWatch](./05_management_and_governance.md#cloudwatch)
+- [ ] [CloudWatch](./05_management_and_governance.md#cloudwatch)
 	- [ ] [メトリクス](./05_management_and_governance.md#cloudwatch)
 		- [ ] [標準メトリクス](./05_management_and_governance.md#cloudwatch)
 		- [ ] [カスタムメトリクス](./05_management_and_governance.md#cloudwatch)
@@ -272,7 +271,7 @@
 	- [ ] [高速](./06_storage.md#データの取り出しオプション)
 	- [ ] [標準](./06_storage.md#データの取り出しオプション)
 	- [ ] [バルク](./06_storage.md#データの取り出しオプション)
-	- [ ] [S3 Glacier Select](./06_storage.md#s3-glaicier-select)
+	- [ ] [S3 Glacier Select](./06_storage.md#s3-glacier-select)
 	- [ ] [削除禁止機能（ボールトロック）](./06_storage.md#削除禁止機能)
 
 - [ ] [Storage Gateway](./06_storage.md#storage-gateway)

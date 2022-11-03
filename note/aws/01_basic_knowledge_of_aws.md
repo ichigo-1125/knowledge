@@ -26,7 +26,7 @@
 
 ## AWSのコアサービス
 
-![AWSの構成サンプル](./img/aws_sample.png)
+![AWSの構成サンプル](./img/aws_sample.jpg)
 
 ### 最重要サービス
 
