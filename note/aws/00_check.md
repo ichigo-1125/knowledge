@@ -75,18 +75,15 @@
 		- [ ] [トランジット](./03_networking_and_content_delivery.md#ピアリング接続)
 	- [ ] [VPCフローログ](./03_networking_and_content_delivery.md#vpcフローログ)
 		- [ ] [ENI](./03_networking_and_content_delivery.md#vpcフローログ)
-
 - [ ] [AWS Direct Connect](./03_networking_and_content_delivery.md#direct-connect)
 	- [ ] [Direct Connect Gateway](./03_networking_and_content_delivery.md#direct-connect)
 	- [ ] [AWS Transit Gateway](./03_networking_and_content_delivery.md#direct-connect)
-
 - [ ] [Amazon CloudFront](./03_networking_and_content_delivery.md#cloudfront)
 	- [ ] [バックエンドサーバ（オリジンサーバ）](./03_networking_and_content_delivery.md#cloudfront)
 	- [ ] [CDN](./03_networking_and_content_delivery.md#cloudfront)
 	- [ ] [エッジロケーション](./03_networking_and_content_delivery.md#cloudfront)
 	- [ ] [レイテンシー](./03_networking_and_content_delivery.md#cloudfront)
 	- [ ] [キャッシュルール](./03_networking_and_content_delivery.md#キャッシュルール)
-
 - [ ] [Route53](./03_networking_and_content_delivery.md#route-53)
 	- [ ] [ゾーン情報](./03_networking_and_content_delivery.md#ドメイン管理)
 	- [ ] [権威DNS](./03_networking_and_content_delivery.md#権威dns)
@@ -139,7 +136,6 @@
 		- [ ] [ストレージ最適化](./04_computing.md#インスタンスの分類と用途)
 	- [ ] [Savings Plans](./04_computing.md#savings-plans)
 		- [ ] [Compute Savings Plans](./04_computing.md#savings-plans)
-	
 - [ ] [ELB](./04_computing.md#elb)
 	- [ ] [スケールアップ](./04_computing.md#スケールアップとスケールアウト)
 	- [ ] [スケールアウト](./04_computing.md#スケールアップとスケールアウト)
@@ -150,7 +146,6 @@
 	- [ ] [スパイク](./04_computing.md#elbの種類)
 	- [ ] [ヘルスチェック](./04_computing.md#elbの種類)
 	- [ ] [ステートレス](./04_computing.md#ステートレス性の確保)
-	
 - [ ] [Auto Scaling](./04_computing.md#auto-scaling)
 	- [ ] [スケーリングポリシー](./04_computing.md#スケーリングポリシー)
 		- [ ] [簡易スケーリング](./04_computing.md#スケーリングポリシー)
@@ -161,7 +156,6 @@
 	- [ ] [ウォームアップ](./04_computing.md#ウォームアップとクールダウン)
 	- [ ] [ライフサイクルフック](./04_computing.md#ライフサイクルフック)
 	- [ ] [終了ポリシー](./04_computing.md#終了ポリシー)
-	
 - [ ] [ECS](./04_computing.md#ecs)
 	- [ ] [Docker](./04_computing.md#ecs)
 		- [ ] [Task](./04_computing.md#ecs)
@@ -172,7 +166,6 @@
 	- [ ] [Kubernetes](./04_computing.md#その他のコンテナサービス)
 		- [ ] [EKS](./04_computing.md#その他のコンテナサービス)
 	- [ ] [ECR](./04_computing.md#その他のコンテナサービス)
-	
 - [ ] [Lambda](./04_computing.md#lambda)
 	- [ ] [プロビジョニング](./04_computing.md#lambda)
 	- [ ] [サーバレスアーキテクチャ](./04_computing.md#lambda)
@@ -193,7 +186,6 @@
 			- [ ] [イベント](./05_management_and_governance.md#cloudwatch-events)
 		- [ ] [ターゲット](./05_management_and_governance.md#cloudwatch-events)
 		- [ ] [EventBridge](./05_management_and_governance.md#cloudwatch-events)
-	
 - [ ] [AWS CloudTrail](./05_management_and_governance.md#cloudtrail)
 	- [ ] [管理イベント](./05_management_and_governance.md#イベントの種類)
 	- [ ] [データイベント](./05_management_and_governance.md#イベントの種類)
@@ -217,7 +209,6 @@
 	- [ ] [バースト性能](./06_storage.md#バースト性能)
 	- [ ] [スナップショット機能](./06_storage.md#ebsの拡張と可用性とセキュリティ)
 	- [ ] [EBSマルチアタッチ](./06_storage.md#ebsマルチアタッチ)
-
 - [ ] [EFS](./06_storage.md#efs)
 	- [ ] [NFS](./06_storage.md#efs)
 	- [ ] [amazon-efs-utils](./06_storage.md#efs)
@@ -232,7 +223,6 @@
 		- [ ] [バーストスループットモード](./06_storage.md#スループットモード)
 		- [ ] [プロビジョニングバーストスループットモード](./06_storage.md#スループットモード)
 		- [ ] [BurstCreditBalance](./06_storage.md#スループットモード)
-
 - [ ] [S3](./06_storage.md#s3)
 	- [ ] [バケット](./06_storage.md#s3の構成要素)
 	- [ ] [オブジェクト](./06_storage.md#s3の構成要素)
@@ -261,7 +251,6 @@
 	- [ ] [S3 Access Analyzer](./06_storage.md#ブロックパブリックアクセス機能)
 	- [ ] [S3 Select](./06_storage.md#s3のその他の機能)
 	- [ ] [S3 Transfer Acceleratioin](./06_storage.md#s3のその他の機能)
-
 - [ ] [S3 Glacier](./06_storage.md#s3-glacier)
 	- [ ] [ボールト](./06_storage.md#s3-glacierの構成要素)
 	- [ ] [アーカイブ](./06_storage.md#s3-glacierの構成要素)
@@ -273,7 +262,6 @@
 	- [ ] [バルク](./06_storage.md#データの取り出しオプション)
 	- [ ] [S3 Glacier Select](./06_storage.md#s3-glacier-select)
 	- [ ] [削除禁止機能（ボールトロック）](./06_storage.md#削除禁止機能)
-
 - [ ] [Storage Gateway](./06_storage.md#storage-gateway)
 	- [ ] [ファイルゲートウェイ](./06_storage.md#ファイルゲートウェイ)
 	- [ ] [ボリュームゲートウェイ](./06_storage.md#ボリュームゲートウェイ)
@@ -285,7 +273,6 @@
 	- [ ] [テープゲートウェイ](./06_storage.md#テープゲートウェイ)
 	- [ ] [CHAP認証](./06_storage.md#storage-gatewayのセキュリティ)
 	- [ ] [iSCSI](./06_storage.md#storage-gatewayのセキュリティ)
-	
 - [ ] [FSx](./06_storage.md#fsx)
 	- [ ] [FSx for Windowsファイルサーバ](./06_storage.md#fsx-for-windowsファイルサーバ)
 	- [ ] [FSx for Lustre](./06_storage.md#fsx-for-lustre)
@@ -310,7 +297,6 @@
 		- [ ] [読み取りエンドポイント](./07_database.md#aurora)
 		- [ ] [インスタンスエンドポイント](./07_database.md#aurora)
 		- [ ] [カスタムエンドポイント](./07_database.md#aurora)
-	
 - [ ] [Redshift](./07_database.md#redshift)
 	- [ ] [データウェアハウス](./07_database.md#redshift)
 	- [ ] [Redshiftクラスタ](./07_database.md#redshiftの構成)
@@ -324,7 +310,6 @@
 	- [ ] [シェアードナッシング](./07_database.md#redshiftの拡張性)
 	- [ ] [wlm_json_configuration](./07_database.md#ワークロードの管理機能)
 	- [ ] [Redshift Spectrum](./07_database.md#redshift-spectrum)
-	
 - [ ] [DynamoDB](./07_database.md#dynamodb)
 	- [ ] [Key-Value型データベース](./07_database.md#dynamodb)
 	- [ ] [トランザクション](./07_database.md#dynamodb)
@@ -343,7 +328,6 @@
 	- [ ] [DynamoDB Streams](./07_database.md#dynamodb-streams)
 	- [ ] [Consistent Read](./07_database.md#consistent-read)
 	- [ ] [DynamoDB Accelerator（DAX）](./07_database.md#dynamodb-accelerator)
-
 - [ ] [ElastiCache](./07_database.md#elasticache)
 	- [ ] [Mmemcached](./07_database.md#elasticache)
 		- [ ] [ノードエンドポイント](./07_database.md#memcached版elasticache)
@@ -354,22 +338,17 @@
 		- [ ] [ノードエンドポイント](./07_database.md#redis版elasticache)
 		- [ ] [プライマリエンドポイント](./07_database.md#redis版elasticache)
 		- [ ] [設定エンドポイント](./07_database.md#redis版elasticache)
-
 - [ ] [Amazon Neptune](./07_database.md#amazon-neptune)
 	- [ ] [グラフデータベース](./07_database.md#amazon-neptune)
-
 - [ ] [Amazon DocumentDB](./07_database.md#amazon-documentdb)
 	- [ ] [MongoDB](./07_database.md#amazon-documentdb)
 	- [ ] [ドキュメントデータベース](./07_database.md#amazon-documentdb)
-
 - [ ] [Amazon Keyspaces](./07_database.md#amazon-keyspaces)
 	- [ ] [Apache Cassandra](./07_database.md#amazon-keyspaces)
 	- [ ] [列指向データ、行指向データ](./07_database.md#amazon-keyspaces)
-
 - [ ] [Amazon Timestream](./07_database.md#amazon-timestream)
 	- [ ] [時系列データベース](./07_database.md#amazon-timestream)
 	- [ ] [時系列データ](./07_database.md#amazon-timestream)
-
 - [ ] [Amazon QLDB](./07_database.md#amazon-qldb)
 	- [ ] [台帳データベース](./07_database.md#amazon-qldb)
 
@@ -383,9 +362,7 @@
 	- [ ] [マスタキー（CMK）](./08_security_and_identity.md#マスタキーとデータキー)
 	- [ ] [データキー（CDK）](./08_security_and_identity.md#マスタキーとデータキー)
 	- [ ] [エンベロープ暗号化](./08_security_and_identity.md#マスタキーとデータキー)
-
 - [ ] [CloudHSM](./08_security_and_identity.md#kmsとcloudhsm)
-
 - [ ] [ACM](./08_security_and_identity.md#acm)
 	- [ ] [サーバ証明書](./08_security_and_identity.md#証明書の役割と実体)
 	- [ ] [SSL/TLS](./08_security_and_identity.md#証明書の役割と実体)
@@ -403,22 +380,19 @@
 	- [ ] [キュー](./09_application_integration.md#sqs)
 	- [ ] [Standardキュー](./09_application_integration.md#standardキューとfifoキュー)
 	- [ ] [FIFOキュー](./09_application_integration.md#standardキューとfifoキュー)
-	- [ ] [ロングポーリング](./09_application_integration.md#ロングポーリング)
-	- [ ] [ショートポーリング](./09_application_integration.md#ロングポーリング)
+	- [ ] [ロングポーリング](./09_application_integration.md#ロングポーリングとショートポーリング)
+	- [ ] [ショートポーリング](./09_application_integration.md#ロングポーリングとショートポーリング)
 	- [ ] [可視性タイムアウト](./09_application_integration.md#可視性タイムアウト)
 	- [ ] [遅延キュー](./09_application_integration.md#遅延キューとメッセージタイマー)
 	- [ ] [メッセージタイマー](./09_application_integration.md#遅延キューとメッセージタイマー)
 	- [ ] [デッドレターキュー](./09_application_integration.md#デッドレターキュー)
-
 - [ ] [SWF](./09_application_integration.md#awsのワークフローサービス)
 - [ ] [Amazon Step Functions](./09_application_integration.md#awsのワークフローサービス)
-
 - [ ] [SNS](./09_application_integration.md#sns)
-	- [ ] [トピック](./09_application_integration.md#トピックと講読)
-	- [ ] [購読](./09_application_integration.md#トピックと講読)
-		- [ ] [Publisher](./09_application_integration.md#トピックと講読)
-		- [ ] [Subscriber](./09_application_integration.md#トピックと講読)
-	
+	- [ ] [トピック](./09_application_integration.md#トピックと購読)
+	- [ ] [購読](./09_application_integration.md#トピックと購読)
+		- [ ] [Publisher](./09_application_integration.md#トピックと購読)
+		- [ ] [Subscriber](./09_application_integration.md#トピックと購読)
 - [ ] [SES](./09_application_integration.md#ses)
 	- [ ] [SPF](./09_application_integration.md#ses)
 	- [ ] [DKIM](./09_application_integration.md#ses)
@@ -429,13 +403,10 @@
 - [ ] [CodeCommit](./10_developer_tools.md#codecommit)
 	- [ ] [Git](./10_developer_tools.md#codecommit)
 	- [ ] [プルリクエスト](./10_developer_tools.md#codecommit)
-	
 - [ ] [CodeBuild](./10_developer_tools.md#codebuild)
 	- [ ] [buildspec.yml](./10_developer_tools.md#codebuild)
-	
 - [ ] [CodeDeploy](./10_developer_tools.md#codedeploy)
 	- [ ] [appspec.yml](./10_developer_tools.md#codedeploy)
-	
 - [ ] [Code Pipeline](./10_developer_tools.md#codedeploy)
 
 
@@ -447,7 +418,6 @@
 	- [ ] [AWS Toolkit for Eclipse](./11_provisioning.md#elastic-beanstalkの利用方法)
 	- [ ] [AWS CLI](./11_provisioning.md#elastic-beanstalkの利用方法)
 	- [ ] [EB CLI](./11_provisioning.md#elastic-beanstalkの利用方法)
-
 - [ ] [OpsWorks](./11_provisioning.md#opsworks)
 	- [ ] [Chef](./11_provisioning.md#opsworks)
 	- [ ] [レシピ](./11_provisioning.md#opsworks)
@@ -458,10 +428,9 @@
 		- [ ] [レイヤ](./11_provisioning.md#opsworksスタック)
 	- [ ] [OpsWorksエージェント](./11_provisioning.md#opsworksスタック)
 	- [ ] [Chef Automate](./11_provisioning.md#opsworks-for-chef-automate)
-
-- [ ] [CloudFormation](./11_provisioning.md#opsworks-for-chef-automate)
-	- [ ] [スタック](./11_provisioning.md#opsworks-for-chef-automate)
-	- [ ] [テンプレート](./11_provisioning.md#opsworks-for-chef-automate)
+- [ ] [CloudFormation](./11_provisioning.md#cloudformation)
+	- [ ] [スタック](./11_provisioning.md#cloudformation)
+	- [ ] [テンプレート](./11_provisioning.md#cloudformation)
 		- [ ] [Resourcesセクション](./11_provisioning.md#cloudformationテンプレート)
 		- [ ] [Parametersセクション](./11_provisioning.md#cloudformationテンプレート)
 		- [ ] [Mappingsセクション](./11_provisioning.md#cloudformationテンプレート)
@@ -483,7 +452,6 @@
 	- [ ] [分散処理基盤](./12_analytics.md#分散処理基盤としてのemr)
 	- [ ] [サポートアプリケーション](./12_analytics.md#分散処理アプリケーション基盤としてのemr)
 	- [ ] [カスタムアプリケーション](./12_analytics.md#分散処理アプリケーション基盤としてのemr)
-	
 - [ ] [ETLツール](./12_analytics.md#etlツール)
 	- [ ] [Kinesis](./12_analytics.md#kinesis)
 		- [ ] [Data Stream](./12_analytics.md#kinesis)
@@ -495,6 +463,5 @@
 		- [ ] [クローラ機能](./12_analytics.md#glue)
 		- [ ] [データカタログ機能](./12_analytics.md#glue)
 		- [ ] [ジョブ](./12_analytics.md#glue)
-
 - [ ] [Amazon Athena](./12_analytics.md#amazon-athena)
 - [ ] [Amazon QuickSight](./12_analytics.md#amazon-quicksight)
