@@ -27,6 +27,8 @@
 
 ## VPC
 
+![AWS VPC](./img/aws_vpc.png)
+
 **VPC**（Amazon Virtual Private Cloud）はAWSのネットワークサービスの中心であり、利用者ごとのプライベートなネットワークをAWS内に作成する。VPCからインターネットへの出口を**インターネットゲートウェイ**（IGW）、VPCからオンプレミスの各拠点への出口を**仮想プライベートゲートウェイ**（VGW）という。
 
 S3やCloudWatch、DynamoDBなど、VPCに入れられないサービスも多数あるので注意する。
