@@ -284,6 +284,7 @@
 		- [ ] [保管型ボリューム](./06_storage.md#ボリュームゲートウェイ)
 	- [ ] [テープゲートウェイ](./06_storage.md#テープゲートウェイ)
 	- [ ] [CHAP認証](./06_storage.md#storage-gatewayのセキュリティ)
+	- [ ] [iSCSI](./06_storage.md#storage-gatewayのセキュリティ)
 	
 - [ ] [FSx](./06_storage.md#fsx)
 	- [ ] [FSx for Windowsファイルサーバ](./06_storage.md#fsx-for-windowsファイルサーバ)
@@ -345,8 +346,8 @@
 
 - [ ] [ElastiCache](./07_database.md#elasticache)
 	- [ ] [Mmemcached](./07_database.md#elasticache)
-		- [ ] [ノードエンドポイント](./07_database.md#memcached版elesticache)
-		- [ ] [設定エンドポイント](./07_database.md#memcached版elesticache)
+		- [ ] [ノードエンドポイント](./07_database.md#memcached版elasticache)
+		- [ ] [設定エンドポイント](./07_database.md#memcached版elasticache)
 	- [ ] [Redis](./07_database.md#elasticache)
 		- [ ] [クラスタモード](./07_database.md#redis版elasticache)
 			- [ ] [シャード](./07_database.md#redis版elasticache)

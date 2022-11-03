@@ -24,9 +24,9 @@
 	1. [データパーティショニング](#データパーティショニング)
 	1. [プライマリキーとインデックス](#プライマリキーとインデックス)
 	1. [TTL](#ttl)
-	1. [DynamoDB Stream](#dynamodb-stream)
+	1. [DynamoDB Streams](#dynamodb-streams)
 	1. [Consistent Read](#consistent-read)
-	1. [DynamoDB Accelerator](#dynamodb-accelarator)
+	1. [DynamoDB Accelerator](#dynamodb-accelerator)
 1. [ElastiCache](#elasticache)
 	1. [Memcached版ElastiCache](#memcached版elasticache)
 	1. [Redis版ElastiCache](#redis版elasticache)
@@ -39,15 +39,15 @@
 
 ## RDS
 
-**Amazon RDS**（Relational Database Service）は、AWSが提供するマネージドRDBサービスである。データベースエンジンは、MySQL、MariaDB、PostgreSQL、Oracle、Microsoft SQL Serverなどから選択できる。また、**Amazon Aurora**はAWSが独自に開発した、クラウドのメリットを最大限生かした新しいアーキテクチャのRDSである。
+**Amazon RDS**（Relational Database Service）は、AWSが提供するマネージドRDBサービスである。データベースエンジンは、MySQL、MariaDB、PostgreSQL、Oracle、Microsoft SQL Serverなどから選択できる。また、**Amazon Aurora**はAWSが独自に開発した、クラウドのメリットを最大限生かした新しいアーキテクチャのRDBMSである。
 
 ### ストレージタイプ
 
-RDSのデータ保存用のストレージには、EBSを利用する。ボリュームタイプとしては、汎用SSD、プロビジョンドIOPS SSD、マグネティックから選択することができる。
+RDSのデータ保存用のストレージには、[EBS](./06_storage.md#ebs)を利用する。ボリュームタイプとしては、汎用SSD、プロビジョンドIOPS SSD、マグネティックから選択することができる。
 
 ### マルチAZ構成
 
-**マルチAZ構成**は、1つのリージョン内の2つのAZにDBインスタンスをそれぞれ配置し、障害発生時やメンテナンス時のダウンタイムを短くすることで高可用性を実現するサービス。
+**マルチAZ構成**は、1つのリージョン内の2つの[AZ](./01_basic_knowledge_of_aws.md#リージョンとaz)にDBインスタンスをそれぞれ配置し、障害発生時やメンテナンス時のダウンタイムを短くすることで高可用性を実現する（マルチAZ構成はRDSに限らず、異なるAZにインスタンスを用意することで単一障害点をつくらないようにする構成のこと）。
 
 ただし、2つのAZ間でデータを同期するため、シングルAZ構成よりも書き込みやコミットにかかる時間が長くなる。また、**フェイルオーバ**が発生した場合に、RDSへの接続用のFQDNのDNSレコードがスタンバイ側のIPアドレスに書き換えられるが、この操作に時間がかかる点にも注意が必要である。
 
