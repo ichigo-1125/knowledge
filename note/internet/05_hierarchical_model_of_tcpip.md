@@ -37,13 +37,13 @@ TCP/IPのアプリケーションの多くは、**クライアント/サーバ�
 
 **遠隔ログイン**は、遠く離れたコンピュータにログインして、そのコンピュータでプログラムを走らせることができるようにするための機能。**TELNET**（TELetypewriter NETwork）や**SSH**（Secure SHell）といった[プロトコル](./01_basic_knowledge_of_network.md#プロトコル)がよく用いられる。また、リモートデスクトップなどを用いる際は**RDP**が[プロトコル](./01_basic_knowledge_of_network.md#プロトコル)として用いられる。
 
-**ネットワーク管理**には、**SNMP**（Simple Network Management Protocol）が用いられる。SNMPで管理される[ルーター](./01_basic_knowledge_of_network.md#ルーター)や[ブリッジ](./01_basic_knowledge_of_network.md#ブリッジ)、ホストなどを**エージェント**といい、これらを管理するプログラムを**マネージャ**という。エージェントは様々な情報を**MIB**（Management Information Base）という構造によって管理する。
+**ネットワーク管理**には、**SNMP**（Simple Network Management Protocol）が用いられる。SNMPで管理される[ルーター](./01_basic_knowledge_of_network.md#ルーター)や[ブリッジ](./01_basic_knowledge_of_network.md#ブリッジ)、[ホスト](./07_internet_layer.md#ホストとルーターとノード)などを**エージェント**といい、これらを管理するプログラムを**マネージャ**という。エージェントは様々な情報を**MIB**（Management Information Base）という構造によって管理する。
 
 ### トランスポート層
 
 トランスポート層はアプリケーションプログラム間の通信を実現する役割がある。そのため、どのプログラムがどのプログラムと通信しているかを識別するために、**ポート番号**と呼ばれる識別子を用いる。トランスポート層では以下の2つの代表的な[プロトコル](./01_basic_knowledge_of_network.md#プロトコル)が用いられる。
 
-**TCP**（Transmission Control Protocol）は、[コネクション型](./01_basic_knowledge_of_network.md#コネクション型とコネクションレス型)で信頼性のある通信を実現するために用いられる。両端のホスト間でのデータの到達性を保証する。経路の途中でパケットが失われたり順番が入れ替わったりしても、[TCP](./08_transport_layer.md#tcp)がそれを解決する。コネクションの確立・切断をするだけで制御のために7回もパケットをやり取りするため、データの転送量が少ない場合は無駄が多くなる。
+**TCP**（Transmission Control Protocol）は、[コネクション型](./01_basic_knowledge_of_network.md#コネクション型とコネクションレス型)で信頼性のある通信を実現するために用いられる。両端の[ホスト](./07_internet_layer.md#ホストとルーターとノード)間でのデータの到達性を保証する。経路の途中でパケットが失われたり順番が入れ替わったりしても、[TCP](./08_transport_layer.md#tcp)がそれを解決する。コネクションの確立・切断をするだけで制御のために7回もパケットをやり取りするため、データの転送量が少ない場合は無駄が多くなる。
 
 **UDP**（User Datagram Protocol）は、[コネクションレス型](./01_basic_knowledge_of_network.md#コネクション型とコネクションレス型)でデータの到達に関して信頼性のない[プロトコル](./01_basic_knowledge_of_network.md#プロトコル)である。送信したデータが相手に届いているかどうかの確認は行わない。パケット数が少ない通信や、[ブロードキャスト](./01_basic_knowledge_of_network.md#通信相手の数による通信方式の分類)や[マルチキャスト](./01_basic_knowledge_of_network.md#通信相手の数による通信方式の分類)通信、ビデオや音声などの[マルチメディア](./01_basic_knowledge_of_network.md#通信相手の数による通信方式の分類)通信に向いている。
 
@@ -51,7 +51,7 @@ TCP/IPのアプリケーションの多くは、**クライアント/サーバ�
 
 **インターネット層**（ネットワーク層）の代表的な[プロトコル](./01_basic_knowledge_of_network.md#プロトコル)は[IP](./07_internet_layer.md#ip)で、[IPアドレス](./07_internet_layer.md#ipアドレス)をもとにしてパケットを転送する役割を担う。
 
-**IP**（Internet Protocol）は、ネットワークをまたいでパケットを配送し、[インターネット](./01_basic_knowledge_of_network.md#インターネット)全体にパケットを送り届けるための[プロトコル](./01_basic_knowledge_of_network.md#プロトコル)。それぞれのホストを識別するために、**IPアドレス**と呼ばれる識別子を用いる。
+**IP**（Internet Protocol）は、ネットワークをまたいでパケットを配送し、[インターネット](./01_basic_knowledge_of_network.md#インターネット)全体にパケットを送り届けるための[プロトコル](./01_basic_knowledge_of_network.md#プロトコル)。それぞれの[ホスト](./07_internet_layer.md#ホストとルーターとノード)を識別するために、**IPアドレス**と呼ばれる識別子を用いる。
 
 **ICMP**（Internet Control Message Protocol）は、IPパケットの配送中に何らかの異常が発生してパケットを転送できなくなったときに、送信元に異常を知らせるために用いられる[プロトコル](./01_basic_knowledge_of_network.md#プロトコル)。
 
@@ -78,7 +78,7 @@ TCP/IPでは、転送されるデータに対して各階層で**ヘッダ**と�
 
 ### TCPモジュールの処理
 
-TCPヘッダには、送信ホストと受信ホストのアプリケーションを識別するための**ポート番号**、パケットが何バイト目のデータなのかを示す**シーケンス番号**、データが壊れていないことを証明する**チェックサム**などが含まれる。
+TCPヘッダには、送信[ホスト](./07_internet_layer.md#ホストとルーターとノード)と受信[ホスト](./07_internet_layer.md#ホストとルーターとノード)のアプリケーションを識別するための**ポート番号**、パケットが何バイト目のデータなのかを示す**シーケンス番号**、データが壊れていないことを証明する**チェックサム**などが含まれる。
 
 データが正確に届けられた場合は、それを確認するための「**確認応答**」を返す。
 
@@ -86,7 +86,7 @@ TCPヘッダには、送信ホストと受信ホストのアプリケーショ�
 
 ### IPモジュールの処理
 
-IPヘッダには、宛先や送信元の**IPアドレス**、IPヘッダに続くデータが[TCP](./08_transport_layer.md#tcp)なのか[UDP](./08_transport_layer.md#udp)なのかを表す情報が含まれる。パケットは、**経路制御表**（ルーティングテーブル）をもとに次に渡す[ルーター](./01_basic_knowledge_of_network.md#ルーター)やホストが決定される。
+IPヘッダには、宛先や送信元の**IPアドレス**、IPヘッダに続くデータが[TCP](./08_transport_layer.md#tcp)なのか[UDP](./08_transport_layer.md#udp)なのかを表す情報が含まれる。パケットは、**経路制御表**（ルーティングテーブル）をもとに次に渡す[ルーター](./01_basic_knowledge_of_network.md#ルーター)や[ホスト](./07_internet_layer.md#ホストとルーターとノード)が決定される。
 
 通信先の機器の[MACアドレス](./06_datalink_layer.md#macアドレス)がわからない場合は、[ARP](./06_datalink_layer.md#arp)を利用して[MACアドレス](./06_datalink_layer.md#macアドレス)を調べる。
 
@@ -94,4 +94,4 @@ IPヘッダには、宛先や送信元の**IPアドレス**、IPヘッダに続�
 
 パケットが物理層により送信される際、**FCS**（Frame Check Sequence）がハードウェアで計算される。これは、ノイズなどによりパケットが破壊されたことを検出するためのもの。
 
-パケットを受け取ったホストは、そのパケットの送り先の[MACアドレス](./06_datalink_layer.md#macアドレス)を調べ、自分宛てでなければそれを捨てる。
+パケットを受け取った[ホスト](./07_internet_layer.md#ホストとルーターとノード)は、そのパケットの送り先の[MACアドレス](./06_datalink_layer.md#macアドレス)を調べ、自分宛てでなければそれを捨てる。

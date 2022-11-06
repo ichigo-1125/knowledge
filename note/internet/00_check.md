@@ -166,7 +166,7 @@
 
 - [ ] [エンドツーエンドの通信](./07_internet_layer.md#ipとosi参照モデル)
 	- [ ] [終点ノード（エンドノード）](./07_internet_layer.md#ipとosi参照モデル)
-- [ ] [ホスト、ルータ、ノード](./07_internet_layer.md#ホストルータノード)
+- [ ] [ホスト、ルータ、ノード](./07_internet_layer.md#ホストとルータとノード)
 - [ ] [最善努力型（ベストエフォートのサービス）](./07_internet_layer.md#ipの役割)
 - [ ] [経路制御（ルーティング）](./07_internet_layer.md#経路制御)
 	- [ ] [ホップ、1ホップ](./07_internet_layer.md#経路制御)
@@ -179,10 +179,10 @@
 	- [ ] [ドット・デシマル・ノーテーション](./07_internet_layer.md#ipアドレス)
 	- [ ] [ネットワーク部とホスト部](./07_internet_layer.md#ipアドレス)
 	- [ ] [クラス](./07_internet_layer.md#クラス)
-	- [ ] [ネットワークアドレス](./07_internet_layer.md#ネットワークアドレスブロードキャストアドレス)
-	- [ ] [ブロードキャストアドレス](./07_internet_layer.md#ネットワークアドレスブロードキャストアドレス)
-		- [ ] [ローカルブロードキャスト](./07_internet_layer.md#ネットワークアドレスブロードキャストアドレス)
-		- [ ] [ダイレクトブロードキャスト](./07_internet_layer.md#ネットワークアドレスブロードキャストアドレス)
+	- [ ] [ネットワークアドレス](./07_internet_layer.md#ネットワークアドレスとブロードキャストアドレス)
+	- [ ] [ブロードキャストアドレス](./07_internet_layer.md#ネットワークアドレスとブロードキャストアドレス)
+		- [ ] [ローカルブロードキャスト](./07_internet_layer.md#ネットワークアドレスとブロードキャストアドレス)
+		- [ ] [ダイレクトブロードキャスト](./07_internet_layer.md#ネットワークアドレスとブロードキャストアドレス)
 	- [ ] [IPマルチキャスト](./07_internet_layer.md#ipマルチキャスト)
 	- [ ] [サブネットワーク、サブネットマスク](./07_internet_layer.md#サブネットマスク)
 	- [ ] [CIDR](./07_internet_layer.md#cidrとvlsm)
@@ -199,7 +199,6 @@
 - [ ] [ループバックアドレス](./07_internet_layer.md#ipアドレスと経路制御)
 - [ ] [分割処理（フラグメンテーション）](./07_internet_layer.md#ipデータグラムの分割処理と再構築処理)
 - [ ] [経路MTU探索](./07_internet_layer.md#経路mtu探索)
-- [ ] [DHCPフィールド](./07_internet_layer.md#dhcpフィールドとecnフィールド)
 - [ ] [DNS](./07_internet_layer.md#dnsの役割)
 	- [ ] [ダイナミックDNS](./07_internet_layer.md#dnsの役割)
 	- [ ] [ホスト名](./07_internet_layer.md#dnsの役割)
@@ -238,7 +237,10 @@
 	- [ ] [フローのセットアップ](./07_internet_layer.md#通信品質の制御)
 - [ ] [DiffServ](./07_internet_layer.md#通信品質の制御)
 - [ ] [ECN](./07_internet_layer.md#通信品質の制御)
-- [ ] [Mobile IP](./07_internet_layer.md#mobileip)
+- [ ] [Mobile IP](./07_internet_layer.md#mobile-ip)
+
+
+## トランスポート層
 
 
 ## アプリケーション層
