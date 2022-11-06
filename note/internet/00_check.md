@@ -91,17 +91,17 @@
 
 ## OSI参照モデル
 
-- [ ] [OSI参照モデル](./04_osi_refereence_model.md#osi参照モデル)
-	- [ ] [インタフェースとプロトコル](./04_osi_refereence_model.md#osi参照モデル)
-	- [ ] [アプリケーション層](./04_osi_refereence_model.md#アプリケーション層)
-	- [ ] [プレゼンテーション層](./04_osi_refereence_model.md#プレゼンテーション層)
-		- [ ] [ビッグエンディアン方式とリトルエンディアン方式](./04_osi_refereence_model.md#プレゼンテーション層)
-		- [ ] [UTF-8、Shift-JIS、EUP-JP](./04_osi_refereence_model.md#プレゼンテーション層)
-	- [ ] [セッション層](./04_osi_refereence_model.md#セッション層)
-	- [ ] [トランスポート層](./04_osi_refereence_model.md#トランスポート層)
-	- [ ] [ネットワーク層](./04_osi_refereence_model.md#ネットワーク層)
-	- [ ] [データリンク層](./04_osi_refereence_model.md#データリンク層)
-	- [ ] [物理層](./04_osi_refereence_model.md#物理層)
+- [ ] [OSI参照モデル](./04_osi_reference_model.md#osi参照モデルの概要)
+	- [ ] [インタフェースとプロトコル](./04_osi_reference_model.md#osi参照モデルの概要)
+	- [ ] [アプリケーション層](./04_osi_reference_model.md#アプリケーション層)
+	- [ ] [プレゼンテーション層](./04_osi_reference_model.md#プレゼンテーション層)
+		- [ ] [ビッグエンディアン方式とリトルエンディアン方式](./04_osi_reference_model.md#プレゼンテーション層)
+		- [ ] [UTF-8、Shift-JIS、EUP-JP](./04_osi_reference_model.md#プレゼンテーション層)
+	- [ ] [セッション層](./04_osi_reference_model.md#セッション層)
+	- [ ] [トランスポート層](./04_osi_reference_model.md#トランスポート層)
+	- [ ] [ネットワーク層](./04_osi_reference_model.md#ネットワーク層)
+	- [ ] [データリンク層](./04_osi_reference_model.md#データリンク層)
+	- [ ] [物理層](./04_osi_reference_model.md#物理層)
 
 
 ## TCP/IPの階層モデル
