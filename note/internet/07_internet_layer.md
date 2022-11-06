@@ -203,7 +203,7 @@ CIDRやVLSMの登場により、グローバルIPv4アドレスの不足は一�
 
 ## IPv4のフレームフォーマット
 
-![IPv4 フレームフォーマット](./img/frame_format_ipv4)
+![IPv4 フレームフォーマット](./img/frame_format_ipv4.jpg)
 
 ### DSCPフィールドとECNフィールド
 
@@ -213,6 +213,8 @@ CIDRやVLSMの登場により、グローバルIPv4アドレスの不足は一�
 
 
 ## IPv6のヘッダフォーマット
+
+![IPv6 フレームフォーマット](./img/frame_format_ipv6.jpg)
 
 
 ## DNS
