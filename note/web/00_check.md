@@ -103,7 +103,7 @@
 - [ ] [URIフラグメント](./04_uri.md#uriの構文)
 - [ ] [絶対URI、相対URI](./04_uri.md#ベースuri)
 	- [ ] [ベースURI](./04_uri.md#ベースuri)
-- [ ] [ASCII文字](./04_uri.md#uriと)
+- [ ] [ASCII文字](./04_uri.md#uriと文字)
 - [ ] [%エンコーディング](./04_uri.md#uriと文字)
 - [ ] [IANA](./04_uri.md#uriスキーム)
 - [ ] [URL](./04_uri.md#uriとurlとurn)
@@ -112,7 +112,7 @@
 - [ ] [クールURI](./04_uri.md#クールuri)
 - [ ] [リダイレクト](./04_uri.md#リダイレクト)
 - [ ] [コンテントネゴシエーション](./04_uri.md#uri設計のテクニック)
-- [ ] [マトリクスURI](./04_uri.md#マトリクスuri)
+- [ ] [マトリクスURI](./04_uri.md#uri設計のテクニック)
 - [ ] [URIの不透明性](./04_uri.md#uriの不透明性)
 
 
