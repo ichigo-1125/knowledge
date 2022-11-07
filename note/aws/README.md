@@ -18,6 +18,6 @@
 - [分析サービス](./12_analytics.md)
 
 
-## 参考リンク
+## ブックマーク集
 
 - [AWS公式サイト](https://aws.amazon.com/jp/)
